@@ -27,6 +27,9 @@ body {
     margin-right: 5%; */
     
 }
+#wip {
+display: inline;
+}
 img {
     padding: 0;
     display: block;
@@ -34,3 +37,26 @@ img {
     max-height: 100%;
     max-width: 100%;
 }
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  .navItem {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:#4f759b;
+  }
